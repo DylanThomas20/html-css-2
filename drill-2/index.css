@@ -1,0 +1,83 @@
+header {
+    
+}
+
+#firstBox{
+
+    height: 165px;
+    background-color: white;
+    border: solid black 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+#purple-rect {
+
+    background-color: rgb(97, 0, 161);
+    height: 60%;
+    width: 5%;
+    margin-top: 8%;
+    margin-right: 4%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+#green-rect {
+
+    background-color: green;
+    height: 90%;
+    width: 50%;
+    margin-top: 1%;
+}
+#circle{
+    
+    background-color: rgb(134, 205, 233);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+#secondBox{
+    margin-top: 2%;
+    height: 200px;
+    background-color: white;
+    border: dotted black 3px;
+}
+
+#square{
+    background-color: rgb(254, 255, 194);
+    height: 150px;
+    width: 90%;
+    margin-top: 3%;
+    margin-left: 5%;
+    box-shadow: 5px 5px rgb(87, 87, 87);
+}
+
+#thirdBox{
+    margin-top: 2%;
+    margin-left:30%;
+    box-shadow: 1px 1px 2px 2px rgb(173, 173, 173);
+    background-color: white;
+    height: 150px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#thirdBox > div{
+    
+    color: rgb(0, 0, 189);
+    font-weight: 800;
+    font-size: 15pt;
+    height: 50px;
+    width: 35%;
+    text-align: center;
+
+
+    /* margin-left: 30%; */
+    
+}
